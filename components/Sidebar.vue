@@ -53,6 +53,18 @@ export default {
           }
         },
         {
+          title: 'Rtm vocale',
+          href: '/rtm_vocale',
+          hiddenOnCollapse: true,
+          icon: {
+            element: 'img',
+            class: 'icon-sidebar',
+            attributes: {
+              src: require('~/assets/images/wild.svg')
+            }
+          }
+        },
+        {
           title: 'Se garer / Se Recharger',
           href: '/parking-map',
           hiddenOnCollapse: true,
